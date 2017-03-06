@@ -19,4 +19,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'A library to connect to restful apis faster'
   spec.source       = { :git => 'https://github.com/elielamora/SwiftAPIHelper.git', :tag => 'v0.0.1' }
   spec.source_files = 'API.swift'
+  spec.ios.deployment_target = '9.0'
+  spec.osx.deployment_target = '10.10'
 end
